@@ -1,2 +1,6 @@
-Command for generating Keystore 
+# Command for generating Keystore 
 keytool -genkey -v -keystore <path to use for the key>/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias <key alias you choose>
+
+# Regex for Email validation in Dart 
+var email = "tony@starkindustries.com"
+bool emailValid = RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+").hasMatch(email);
