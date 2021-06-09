@@ -8,3 +8,11 @@ bool emailValid = RegExp(r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-
 # Rgex for Mobile number validation 
 "/^(\+\d{1,3}[- ]?)?\d{10}$/"
 
+# Git commands
+git add .
+git commit -m "name"
+git push origin master 
+git status
+git log
+git checkout -b "name"
+
