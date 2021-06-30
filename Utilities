@@ -18,3 +18,6 @@ git checkout -b "name"
 
 # For sigin apk or aab
   keytool -genkey -v -keystore c:\Users\ASUS\key_name.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+# Keytool Migrated
+keytool -importkeystore -srckeystore F:\keystores\buykrr\buykrr.jks -destkeystore F:\keystores\buykrr\buykrr.jks -deststoretype pkcs12
