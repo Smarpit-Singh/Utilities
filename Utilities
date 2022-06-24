@@ -59,3 +59,11 @@ class SizeConfig {
 		
 # Git clone repo using personal access token
 git clone https://{token_goes_here}@github.com/Smarpit-Singh/DevFolio.git
+
+
+#How to remove a package in ubuntu via Terminal
+sudo apt-get autoremove eclipse*
+rm -r ~/.eclipse/
+
+-- then 
+sudo snap remove eclipse
